@@ -1,0 +1,74 @@
+2022-03-16 09:56:05.282540: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-03-16 09:56:07.196936: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-03-16 09:56:07.207931: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-03-16 09:56:07.460711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:af:00.0 name: Quadro GP100 computeCapability: 6.0
+coreClock: 1.4425GHz coreCount: 56 deviceMemorySize: 15.90GiB deviceMemoryBandwidth: 681.88GiB/s
+2022-03-16 09:56:07.461264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:18:00.0 name: Quadro P400 computeCapability: 6.1
+coreClock: 1.2525GHz coreCount: 2 deviceMemorySize: 1.95GiB deviceMemoryBandwidth: 29.88GiB/s
+2022-03-16 09:56:07.461320: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-03-16 09:56:07.464211: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-03-16 09:56:07.464312: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-03-16 09:56:07.467230: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-03-16 09:56:07.467726: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-03-16 09:56:07.470901: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-03-16 09:56:07.472400: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-03-16 09:56:07.480227: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-03-16 09:56:07.482282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1847] Ignoring visible gpu device (device: 1, name: Quadro P400, pci bus id: 0000:18:00.0, compute capability: 6.1) with core count: 2. The minimum required count is 8. You can adjust this requirement with the env var TF_MIN_GPU_MULTIPROCESSOR_COUNT.
+2022-03-16 09:56:07.482327: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-03-16 09:56:07.482372: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-03-16 09:56:08.081501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-03-16 09:56:08.081557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 
+2022-03-16 09:56:08.081571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N N 
+2022-03-16 09:56:08.081578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   N N 
+2022-03-16 09:56:08.082989: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/device:GPU:0 with 1892 MB memory) -> physical GPU (device: 0, name: Quadro GP100, pci bus id: 0000:af:00.0, compute capability: 6.0)
+2022-03-16 09:56:08.083883: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-03-16 09:56:08.084104: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-03-16 09:56:08.084620: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:af:00.0 name: Quadro GP100 computeCapability: 6.0
+coreClock: 1.4425GHz coreCount: 56 deviceMemorySize: 15.90GiB deviceMemoryBandwidth: 681.88GiB/s
+2022-03-16 09:56:08.084985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:18:00.0 name: Quadro P400 computeCapability: 6.1
+coreClock: 1.2525GHz coreCount: 2 deviceMemorySize: 1.95GiB deviceMemoryBandwidth: 29.88GiB/s
+2022-03-16 09:56:08.085021: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-03-16 09:56:08.085052: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-03-16 09:56:08.085068: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-03-16 09:56:08.085081: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-03-16 09:56:08.085096: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-03-16 09:56:08.085109: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-03-16 09:56:08.085125: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-03-16 09:56:08.085139: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-03-16 09:56:08.086416: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1847] Ignoring visible gpu device (device: 1, name: Quadro P400, pci bus id: 0000:18:00.0, compute capability: 6.1) with core count: 2. The minimum required count is 8. You can adjust this requirement with the env var TF_MIN_GPU_MULTIPROCESSOR_COUNT.
+2022-03-16 09:56:08.086436: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-03-16 09:56:08.087228: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:af:00.0 name: Quadro GP100 computeCapability: 6.0
+coreClock: 1.4425GHz coreCount: 56 deviceMemorySize: 15.90GiB deviceMemoryBandwidth: 681.88GiB/s
+2022-03-16 09:56:08.087265: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-03-16 09:56:08.087291: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-03-16 09:56:08.087306: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-03-16 09:56:08.087319: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-03-16 09:56:08.087338: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-03-16 09:56:08.087351: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-03-16 09:56:08.087367: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-03-16 09:56:08.087381: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-03-16 09:56:08.088103: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-03-16 09:56:08.088135: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-03-16 09:56:08.088146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2022-03-16 09:56:08.088154: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2022-03-16 09:56:08.088901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1892 MB memory) -> physical GPU (device: 0, name: Quadro GP100, pci bus id: 0000:af:00.0, compute capability: 6.0)
+2022-03-16 09:56:08.088932: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+WARNING:tensorflow:AutoGraph could not transform <function get_energy_changed at 0x7f68d81b5160> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2022-03-16 09:56:08.287726: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-03-16 09:56:08.288271: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2300000000 Hz
+2022-03-16 09:56:08.902618: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-03-16 09:56:09.055961: I tensorflow/core/util/cuda_solvers.cc:180] Creating CudaSolver handles for stream 0x7f6933b8c1f0
+2022-03-16 09:56:09.056151: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-03-16 09:56:09.377584: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+ 1/24 [>.............................] - ETA: 5s - loss: 0.0220 - avg_dist: 0.9771 - avg_norm: 0.4063 - success: 0.0000e+00 - success_norm: 0.0000e+0020/24 [========================>.....] - ETA: 0s - loss: 0.0214 - avg_dist: 0.9531 - avg_norm: 0.4009 - success: 0.0000e+00 - success_norm: 0.0000e+0024/24 [==============================] - 0s 3ms/step - loss: 0.0214 - avg_dist: 0.9530 - avg_norm: 0.4009 - success: 0.0000e+00 - success_norm: 0.0000e+00
+0.9530147910118103 0.0
+ 1/24 [>.............................] - ETA: 5s - loss: 0.0177 - avg_dist: 0.8611 - avg_norm: 0.3629 - success: 0.0000e+00 - success_norm: 0.0000e+0018/24 [=====================>........] - ETA: 0s - loss: 0.0173 - avg_dist: 0.8414 - avg_norm: 0.3577 - success: 0.0000e+00 - success_norm: 0.0000e+0024/24 [==============================] - 0s 3ms/step - loss: 0.0174 - avg_dist: 0.8437 - avg_norm: 0.3583 - success: 0.0000e+00 - success_norm: 0.0000e+00
