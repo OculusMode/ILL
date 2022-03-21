@@ -113,7 +113,7 @@ with tf.device(device_name):
     # checkpoint_dir = os.path.dirname(checkpoint_path)
     # cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path, save_weights_only=True, verbose=1)
 
-    # history = model.fit(X_train, X_train, epochs=10_000, batch_size=128, callbacks=[cp_callback])
+    history = model.fit(X_train, X_train, epochs=10_000, batch_size=128, callbacks=[cp_callback])
     model.load_weights(checkpoint_path)
     _, avg_norm_of_signal, avg_distance, success_, success_norm_ = model.evaluate(X_test, X_test, batch_size=128)
     print(_, avg_norm_of_signal, avg_distance, success_, success_norm_)

@@ -1,19 +1,24 @@
+import os
+# os.environ["CUDA_VISIBLE_DEVICES"]="-1"    
 import numpy as np
 from numpy import random, linalg as LA
 from keras.layers import Dense, Layer, Input, Concatenate
 from keras import Model
-import os
+
 import tensorflow as tf
+# my_devices = tf.config.experimental.list_physical_devices(device_type='CPU')
+# tf.config.experimental.set_visible_devices(devices= my_devices, device_type='CPU')
+# tf.debugging.set_log_device_placement(True)
 VECTOR_SIZE = 8
 
-# device_name = tf.test.gpu_device_name()
-# if device_name != '/device:GPU:0':
-#     device_name = "/cpu:0"
-# else:
-#     device_name = "/gpu:0"
+device_name = tf.test.gpu_device_name()
+if device_name != '/device:GPU:0':
+    device_name = "/cpu:0"
+else:
+    device_name = "/gpu:0"
 device_name = "/cpu:0"
 with tf.device(device_name):
-    
+# if True:
     def avg_dist(y_true, y_pred):
         return tf.reduce_sum(tf.abs(y_true-y_pred), axis=1)
 
