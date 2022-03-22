@@ -174,6 +174,7 @@ with tf.device(device_name):
             callbacks=[cp_callback],
             verbose=2
             )
+        _, avg_norm_of_signal, avg_distance, success_, success_norm_ = model.evaluate(X_test, X_test, batch_size=128)
         print(f'{subspaces} =>> {avg_norm_of_signal},    {success_norm_}')
 #   model.summary()
 
